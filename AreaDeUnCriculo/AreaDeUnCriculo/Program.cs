@@ -10,13 +10,15 @@ namespace AreaDeUnCriculo
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("Programa que haya el area de un circulo" );
 
             Console.WriteLine("Ingresea el radio:");
             int r = int.Parse( Console.ReadLine() );
 
             double PI = 3.141592654;
+
+            double area = PI * Math.Pow(r, 2);
+            Console.WriteLine("El resultado es: " + area);
 
             Console.ReadKey();
 
